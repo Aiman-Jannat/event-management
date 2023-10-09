@@ -37,7 +37,7 @@ const Navbar = () => {
         
       </ul>
     </div>
-    <img className="lg:hidden h-10 " src='https://i.ibb.co/0YZgPwf/logo.png' alt="" />
+    <img className="hidden h-10 " src='https://i.ibb.co/0YZgPwf/logo.png' alt="" />
   </div>
   <div className="flex justify-between">
     <div>

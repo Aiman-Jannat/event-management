@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth";
 
 
 const Login = () => {
-  const {user, signIn, logout} = useContext(AuthContext);
+  const {user, signIn, logout, signInG} = useContext(AuthContext);
   const [error, setError] = useState('');
   const[success, setSuccess] = useState(false);
  
@@ -22,6 +22,14 @@ const Login = () => {
     .catch(error=>setError(error.message));
 
   }
+  const handleGoogle = () =>{
+    signInG()
+    .then(res=>{
+      console.log(res.user);
+   })
+   .catch(error=>console.log(error))
+  }
+  
     return (
       
            <div>
@@ -52,6 +60,7 @@ const Login = () => {
             <input type="submit" className="bg-blue-800 rounded-md py-3 text-white font-bold" value="Login" />
           </div>
           <p>Don not have an Account? Please <Link to='/register'><span className="text-blue-900 underline">register</span></Link></p>
+          <p>Sign in With <a className="text-blue-300 underline" onClick={handleGoogle}>Google Account</a></p>
       </form>
     </div>
   </div>
