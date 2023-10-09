@@ -1,8 +1,13 @@
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../provider/AuthProvider";
+import { useContext } from "react";
 
 
 const Navbar = () => {
-    return (
+  
+  const {userr,logout} = useContext(AuthContext);
+    
+  return (
         <div className="pb-2 px-10">
            <div className="">
   <div className="  flex px-5 justify-between w-full py-2 ">
@@ -20,12 +25,15 @@ const Navbar = () => {
         <NavLink to = '/reviews' className={({ isActive}) =>
     isActive ? "text-[#FF444A] underline" : ""
   }>Reviews</NavLink>
-        <NavLink to = '/dashboard' className={({ isActive}) =>
-    isActive ? "text-[#FF444A] underline" : ""
-  }>Dashboard</NavLink>
-        <NavLink to = '/profile' className={({ isActive}) =>
-    isActive ? "text-[#FF444A] underline" : ""
-  }>Profile</NavLink>
+        {userr&&<>
+          <NavLink to = '/dashboard' className={({ isActive}) =>
+          isActive ? "text-[#FF444A] underline" : ""
+        }>Dashboard</NavLink>
+              <NavLink to = '/profile' className={({ isActive}) =>
+          isActive ? "text-[#FF444A] underline" : ""
+        }>Profile</NavLink>
+        </>
+        }
         
       </ul>
     </div>
@@ -46,22 +54,36 @@ const Navbar = () => {
         <NavLink to = '/reviews' className={({ isActive}) =>
     isActive ? "text-[#FF444A] underline" : ""
   }>Reviews</NavLink>
-        <NavLink to = '/dashboard' className={({ isActive}) =>
-    isActive ? "text-[#FF444A] underline" : ""
-  }>Dashboard</NavLink>
-        <NavLink to = '/profile' className={({ isActive}) =>
-    isActive ? "text-[#FF444A] underline" : ""
-  }>Profile</NavLink>
+        {userr&&<>
+          <NavLink to = '/dashboard' className={({ isActive}) =>
+          isActive ? "text-[#FF444A] underline" : ""
+        }>Dashboard</NavLink>
+              <NavLink to = '/profile' className={({ isActive}) =>
+          isActive ? "text-[#FF444A] underline" : ""
+        }>Profile</NavLink>
+        </>
+        }
     </ul>
     
   </div>
   <div className="flex justify-center gap-3 items-center">
+  {
+            userr?<p className="text-purple-900 font-bold">{userr.displayName}</p>:''
+          }
   <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
         <div className="w-10 rounded-full">
-          <img src="https://static-00.iconduck.com/assets.00/profile-circle-icon-512x512-zxne30hp.png" />
+       
+          {
+            userr?<img src={userr.photoURL} />:<img src="https://static-00.iconduck.com/assets.00/profile-circle-icon-512x512-zxne30hp.png" />
+          }
+          
+          
         </div>
       </label>
-    <Link to="/login"> <button className="border border-blue-800 px-6 py-1 rounded-md">Login</button></Link>
+      {
+        userr? <Link to="/"> <button onClick={logout}  className="border border-blue-800 px-6 py-1 rounded-md">Logout</button></Link>: <Link to="/login"> <button className="border border-blue-800 px-6 py-1 rounded-md">Login</button></Link>
+      }
+    
   </div>
   </div>
   

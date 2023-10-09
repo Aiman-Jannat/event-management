@@ -1,0 +1,32 @@
+[
+    {
+      "id":"1",
+      "name": "WorkShops and Webinar in Asia Pacific University",
+      "image": "https://copelandashcroft.co.nz/wp-content/uploads/2022/11/Ask-the-Experts-Image.jpg",
+      "date": "September, 2023"
+    },
+    {
+      "id":"2",
+      "name": "Coding Bootcamp at Southern University",
+      "image": "https://copelandashcroft.co.nz/wp-content/uploads/2022/11/Ask-the-Experts-Image.jpg",
+      "date": "July, 2023"
+    },
+    {
+      "id":"3",
+      "name": "TED talks at Comilla University",
+      "image": "https://copelandashcroft.co.nz/wp-content/uploads/2022/11/Ask-the-Experts-Image.jpg",
+      "date": "Octobar, 2023"
+    },
+    {
+      "id":"4",
+      "name": "Career Fair at Khulna University",
+      "image": "https://copelandashcroft.co.nz/wp-content/uploads/2022/11/Ask-the-Experts-Image.jpg",
+      "date": "January, 2023"
+    },
+    {
+      "id":"5",
+      "name": "TED talks at Rajshahi University",
+      "image": "https://copelandashcroft.co.nz/wp-content/uploads/2022/11/Ask-the-Experts-Image.jpg",
+      "date": "April, 2023"
+    }
+]

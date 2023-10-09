@@ -14,11 +14,16 @@ import Dashboard from './pages/dashboard/Dashboard.jsx';
 import Profile from './pages/profile/Profile.jsx';
 import Login from './pages/login/Login.jsx';
 import Register from './pages/register/Register.jsx';
+import AuthProvider, { AuthContext } from './provider/AuthProvider.jsx';
+import Error from './pages/Error.jsx';
+import PrivateRoute from './route/PrivateRoute.jsx';
+import ShowDetails from './pages/ShowDetails.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root></Root>,
+    errorElement:<Error></Error>,
     children:[
       {
         path:'/',
@@ -35,11 +40,11 @@ const router = createBrowserRouter([
       },
       {
         path:'/dashboard',
-        element:<Dashboard></Dashboard>
+        element:<PrivateRoute><Dashboard></Dashboard></PrivateRoute>
       },
       {
         path:'/profile',
-        element:<Profile></Profile>
+        element:<PrivateRoute><Profile></Profile></PrivateRoute>
       },
       {
         path:'/login',
@@ -48,6 +53,11 @@ const router = createBrowserRouter([
       {
         path:'/register',
         element:<Register></Register>
+      },
+      {
+        path:'/home/:id',
+        element:<PrivateRoute><ShowDetails></ShowDetails></PrivateRoute>,
+        loader:()=>fetch('/services.json')
       }
     ]
   },
@@ -55,6 +65,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    <AuthProvider>
     <RouterProvider router={router}></RouterProvider>
+    </AuthProvider>
+    
   </React.StrictMode>,
 )

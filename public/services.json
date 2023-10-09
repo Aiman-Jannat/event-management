@@ -1,0 +1,51 @@
+[
+    {
+      "id":"1",
+      "name": "WorkShops and Webinar",
+      "image": "https://copelandashcroft.co.nz/wp-content/uploads/2022/11/Ask-the-Experts-Image.jpg",
+      "price": "150",
+      "short_description": "Our workshops are designed to help you discover your hidden talents, enhance your skills, and tap into your full potential. From personal development to professional growth, we offer a diverse range of topics to suit your needs.",
+      "details_description": "Engage in dynamic discussions, hands-on activities, and collaborative exercises led by experts in their fields. You'll have the opportunity to connect with like-minded individuals, share experiences, and gain valuable insights.Our workshops are scheduled at convenient times, making it easy for you to participate no matter your busy lifestyle. Whether it's a weekend session or a weekday evening, we've got you covered.Our webinars bring the expertise of thought leaders and industry experts directly to your screen. Explore cutting-edge trends, gain industry insights, and stay ahead of the curve, all from the comfort of your home or office.Our webinars feature captivating speakers who are passionate about sharing their knowledge. You'll have the opportunity to ask questions, interact with speakers, and network with fellow participants."
+    },
+    {
+        "id":"2",
+      "name": "Career Fairs",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjU3sAQrzHcKAUkJLpnDcBXzR3pGIBqMF6ug&usqp=CAU",
+      "price": "200",
+      "short_description": "Our Career Fairs bring together a wide range of companies and industries, providing you with access to a diverse array of job openings. Whether you're a recent graduate or a seasoned professional, there's something for everyone",
+      "details_description": "Connect with HR professionals, industry experts, and potential employers who are actively seeking talent like you. Build relationships, exchange ideas, and get insights into the job market.Many employers conduct on-site interviews during our Career Fairs. Be prepared to make a great first impression and possibly secure a job offer right there!Need to revamp your resume? Our Career Fairs often feature resume clinics where you can receive personalized feedback and tips for crafting a standout CV.Attend informative workshops led by career development experts. Learn about job search strategies, interview techniques, and career advancement.Discover opportunities for professional growth, from continuing education to certifications. Explore how to boost your skills and marketability."
+    },
+    {
+        "id":"3",
+      "name": "Educational Conferences",
+      "image": "https://i0.wp.com/utrconf.com/wp-content/uploads/2022/02/Top-Best-Education-Conferences-to-Attend.png?fit=1280%2C720&ssl=1",
+      "price": "100",
+      "short_description": "Are you passionate about education and eager to stay at the forefront of teaching and learning trends? Join us for our upcoming educational conferences, where innovation, inspiration, and networking converge to enrich your education.",
+      "details_description": " Immerse yourself in thought-provoking presentations and workshops led by renowned educators, researchers, and experts. Gain fresh insights and practical strategies to enhance your teaching.Explore a diverse range of topics, from digital pedagogy and inclusive education to emerging technologies and student engagement. Stay ahead of the curve in educational practices.Participate in interactive workshops that provide you with practical tools and resources you can implement in your classrooms or educational institutions.Gain access to the latest research findings and best practices in education. Learn from successful case studies and real-world examples."
+    },
+    {
+        "id":"4",
+      "name": "Training Programs",
+      "image": "https://global-uploads.webflow.com/602bb4fef9fa885b85f30bf7/625ece10dc84a73bb72dba4a_Comprehensive%20training%20program%20waybook%20hero.jpg",
+      "price": "250",
+      "short_description": "Are you ready to invest in your personal and professional growth? Join us for our comprehensive and empowering training programs designed to help you acquire new skills, enhance your knowledge.",
+      "details_description": "Elevate your career with our expert-led courses. From leadership training to project management, our programs are tailored to boost your skills and make you a valuable asset in your field. Stay ahead in today's competitive job market by acquiring in-demand technical skills. Our training covers a wide range of technologies, from coding and data analysis to cybersecurity and digital marketing. Success isn't just about what you know; it's also about how you interact with others. Develop essential soft skills such as communication, leadership, problem-solving, and time management.Explore your full potential with programs focused on personal development, including mindfulness, resilience, and self-confidence. Unleash your inner greatness and achieve a balanced, fulfilling life."
+    },
+    {
+        "id":"5",
+      "name": "Coding Bootcamp",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw3P4PY7GLEprzuidXBBJwuOZP360hZXZDSw&usqp=CAU",
+      "price": "210",
+      "short_description": "Are you ready to unlock the world of programming and embark on a journey to a high-demand, rewarding career in tech? Join our intensive and immersive coding bootcamp to become a coding maestro in no time!",
+      "details_description": "Comprehensive Curriculum: Our bootcamp covers a wide range of programming languages, frameworks, and tools, ensuring you have the skills necessary to excel in the tech industry.Gain hands-on experience by working on real projects that simulate industry challenges. You'll leave with a robust portfolio to showcase your abilities to potential employers.Choose between full-time and part-time programs to fit your lifestyle and commitments. Our bootcamp is designed to accommodate all learners. Learn from seasoned industry professionals who are passionate about teaching and dedicated to your success. Get mentorship from the best in the fieldWe provide career guidance, interview preparation, and job placement assistance to help you land your dream job in tech."
+    },
+    {
+        "id":"6",
+      "name": "TED talks & Public Lectures",
+      "image": "https://s41230.pcdn.co/wp-content/uploads/2020/05/Best-Vegan-Ted-Talks.jpg",
+      "price": "300",
+      "short_description": "Step into a world of ideas, innovation, and inspiration with our TED Talks and public lectures series. Join us as we explore the minds of thought leaders, visionaries, and experts who are shaping the future and igniting change.",
+      "details_description": " Immerse yourself in a diverse range of topics, from science and technology to art, psychology, and social issues. Our speakers deliver captivating talks that challenge your thinking and broaden your horizons.Hear firsthand accounts of personal journeys, triumphs, and challenges. Learn how individuals have overcome adversity and achieved remarkable success, providing valuable lessons for us all.Discover the latest innovations, breakthroughs, and ideas that are transforming industries and reshaping our world. Stay at the forefront of knowledge and innovation.Gain insights into global issues and solutions from speakers who represent different cultures, backgrounds, and experiences. Expand your understanding of the world and its challenges.Gain insights into global issues and solutions from speakers who represent different cultures, backgrounds, and experiences. Expand your understanding of the world and its challenges."
+    }
+
+]

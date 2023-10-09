@@ -1,9 +1,20 @@
 
-import Navbar from '../header/Navbar';
+
+import { getAuth } from 'firebase/auth';
+import auth from '../../firebase/firebase.config';
+import Banner from '../header/banner';
+import Services from '../services/Services';
+import Footer from './Footer';
+import Success from './Success';
 
 const Home = () => {
+    
     return (
-        <div>
+        <div className='mt-5'>
+            <Banner></Banner>
+            <Services></Services>
+            <Success></Success>
+            <Footer></Footer>
            
         </div>
     );

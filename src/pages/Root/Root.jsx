@@ -4,9 +4,9 @@ import Navbar from "../header/Navbar";
 
 const Root = () => {
     return (
-        <div>
+        <div >
             <Navbar></Navbar>
-            <Outlet></Outlet>
+            <Outlet ></Outlet>
         </div>
     );
 };
