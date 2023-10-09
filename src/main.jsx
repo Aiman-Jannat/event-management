@@ -10,14 +10,15 @@ import Root from './pages/Root/Root.jsx';
 import Home from './pages/home/Home.jsx';
 import AboutUs from './pages/AboutUs/AboutUs.jsx';
 import Reviews from './pages/reviews/Reviews.jsx';
-import Dashboard from './pages/dashboard/Dashboard.jsx';
-import Profile from './pages/profile/Profile.jsx';
+import Dashboard from './pages/home/Dashboard.jsx';
+
 import Login from './pages/login/Login.jsx';
 import Register from './pages/register/Register.jsx';
 import AuthProvider, { AuthContext } from './provider/AuthProvider.jsx';
 import Error from './pages/Error.jsx';
 import PrivateRoute from './route/PrivateRoute.jsx';
 import ShowDetails from './pages/ShowDetails.jsx';
+import Profile from './pages/home/Profile.jsx';
 
 const router = createBrowserRouter([
   {

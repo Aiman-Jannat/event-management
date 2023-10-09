@@ -7,12 +7,15 @@ import Services from '../services/Services';
 import Footer from './Footer';
 import Success from './Success';
 
+import Why from './Why';
+
 const Home = () => {
     
     return (
         <div className='mt-5'>
             <Banner></Banner>
             <Services></Services>
+            <Why></Why>
             <Success></Success>
             <Footer></Footer>
            

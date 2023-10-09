@@ -10,7 +10,7 @@ const Success = () => {
         .then(data => setService(data));
     },[]);
     return (
-        <div className="px-10 mt-14">
+        <div className="px-10 ">
             <h2 className="text-5xl  font-bold text-purple-900 text-center py-14">Our Last Five <span className="text-blue-700">Successful</span> Events</h2>
             <Marquee speed={100}>
             <div className="grid grid-cols-2  bg-amber-50 lg:grid-cols-5 ">
