@@ -1,6 +1,6 @@
 # Educaitonal Event Management Company
 
-LIVE link: 
+LIVE link: https://assignment-nine-login.web.app/
 
 - A user have to logged in to explore all functinality
 - Email Password authentication is used here
